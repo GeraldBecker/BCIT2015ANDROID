@@ -37,12 +37,21 @@
             android:text="hello world another time" />
 
         <Button
-            android:layout_width="173dp"
-            android:layout_height="123dp"
-            android:text="New Button"
+            android:layout_width="wrap_content"
+            android:layout_height="62dp"
+            android:text="Bye Button"
+            android:id="@+id/button2"
+            android:layout_gravity="left|center_vertical"
+            android:onClick="bar" />
+
+        <Button
+            android:layout_width="128dp"
+            android:layout_height="65dp"
+            android:text="Hi Button"
             android:id="@+id/button"
-            android:layout_gravity="center"
+            android:layout_gravity="right|center_vertical"
             android:onClick="foo" />
+
     </FrameLayout>
 
 </FrameLayout>

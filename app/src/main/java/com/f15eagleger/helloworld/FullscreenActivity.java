@@ -131,6 +131,12 @@ public class FullscreenActivity extends Activity {
         tst.show();
 
     }
+
+    public void bar(View view) {
+        Toast tst = Toast.makeText(getApplication(), "Goodbye my friend", Toast.LENGTH_LONG);
+        tst.show();
+
+    }
     /**
      * Touch listener to use for in-layout UI controls to delay hiding the
      * system UI. This is to prevent the jarring behavior of controls going away
