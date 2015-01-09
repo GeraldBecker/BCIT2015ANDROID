@@ -61,12 +61,6 @@
             android:id="@+id/textView"
             android:layout_gravity="center_horizontal|top" />
 
-        <RatingBar
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/ratingBar"
-            android:layout_gravity="right|bottom" />
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
